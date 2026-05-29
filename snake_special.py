@@ -214,7 +214,7 @@ def game_loop():
         # Ecran de Start
         while intro:
             screen.fill(BLACK)
-            message("Ajut-o pe doamna de info sa găsească cele 10 diplome!", GOLD, -20)
+            message("Ajut-o pe doamna de info sa găsească cele 15 diplome!", GOLD, -20)
             message("Apasă SPACE pentru a începe", WHITE, 30)
             pygame.display.update()
             for event in pygame.event.get():
